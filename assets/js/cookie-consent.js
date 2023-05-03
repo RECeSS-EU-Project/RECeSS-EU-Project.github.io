@@ -15,12 +15,13 @@ window.cookieconsent.initialise({
   onInitialise: function (status) {
     var type = this.options.type;
     var didConsent = this.hasConsented();
-    if (type == 'opt-in' && didConsent) {
+    //if (type == 'opt-in' && didConsent) {
+    if (didConsent) {
       // enable cookies
       loadGAonConsent();
-      loadDisqusOnConsent();
     }
-    if (type == 'opt-out' && !didConsent) {
+    //if (type == 'opt-out' && !didConsent) {
+    if (!didConsent) {
       // disable cookies
     }
   },
@@ -30,7 +31,6 @@ window.cookieconsent.initialise({
     if (type == 'opt-in' && didConsent) {
       // enable cookies
       loadGAonConsent();
-      loadDisqusOnConsent();
     }
     if (type == 'opt-out' && !didConsent) {
       // disable cookies
@@ -44,7 +44,6 @@ window.cookieconsent.initialise({
     if (type == 'opt-out') {
       // enable cookies
       loadGAonConsent();
-      loadDisqusOnConsent();
     }
   }
 });
