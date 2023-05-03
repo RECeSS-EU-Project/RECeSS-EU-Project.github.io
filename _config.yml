@@ -21,13 +21,12 @@ include:
   - _pages
 
 analytics:
-  provider: "google"
   google:
     tracking_id: "G-YVEBR1XRP0"
     anonymize_ip: true # default
 
-after_footer_scripts:
-  - /assets/js/cookie-consent.js
+#after_footer_scripts:
+#  - /assets/js/cookie-consent.js
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
