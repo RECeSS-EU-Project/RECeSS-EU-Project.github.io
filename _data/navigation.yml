@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Posts by Year"
+    url: /posts/
+  - title: "Posts by Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+  - title: "Privacy"
+    url: /privacy/
