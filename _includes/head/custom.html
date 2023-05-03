@@ -5,10 +5,12 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' }}">
 <link rel="manifest" href="/site.webmanifest">
 
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVEBR1XRP0"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-YVEBR1XRP0', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+
+  gtag('config', 'G-YVEBR1XRP0');
 </script>

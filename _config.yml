@@ -20,10 +20,10 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
-analytics:
-  google:
-    tracking_id: "G-YVEBR1XRP0"
-    anonymize_ip: true # default
+#analytics:
+#  google:
+#    tracking_id: "G-YVEBR1XRP0"
+#    anonymize_ip: true # default
 
 #after_footer_scripts:
 #  - /assets/js/cookie-consent.js
