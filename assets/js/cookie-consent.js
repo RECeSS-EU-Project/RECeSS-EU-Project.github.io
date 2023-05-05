@@ -9,11 +9,10 @@ window.cookieconsent.initialise({
   },
   name: "consentcookie",
   type: "opt-in",
-  domain: "{{ site.url }}",
+  domain: "https://recess-eu-project.github.io/",
   secure: true,
-  samesite: "strict",
   content: {
-    "href": "{{ site.url }}/privacy",
+    "href": "https://recess-eu-project.github.io/privacy",
   },
   onInitialise: function (status) {
     var type = this.options.type;
