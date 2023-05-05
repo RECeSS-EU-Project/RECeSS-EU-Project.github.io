@@ -20,13 +20,14 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
-#analytics:
-#  google:
-#    tracking_id: "G-YVEBR1XRP0"
-#    anonymize_ip: true # default
+analytics:
+#  provider: "google-gtag"
+  google:
+    tracking_id: "G-YVEBR1XRP0"
+    anonymize_ip: true
 
-#after_footer_scripts:
-#  - /assets/js/cookie-consent.js
+after_footer_scripts:
+  - /assets/js/cookie-consent.js
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
