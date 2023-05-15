@@ -19,6 +19,6 @@ We would be delighted to answer questions about the RECeSS project. Please submi
         <textarea name="query" cols="40" rows="5" class="form-control" id="InputQuery" placeholder="What do you want to tell us?"></textarea>
       </div>
       <hr>
-       <p><font size="3.5em">By clicking on "Submit", I hereby consent to the RECeSS project storing my submitted information so my inquired can be considered.</font></p>
+       <p><font size="3.5em">By clicking on "Submit", I hereby consent to the RECeSS project storing my submitted information so my inquiry can be considered.</font></p>
       <center><button type="submit" class="btn btn-primary">Submit</button></center>
     </form>
