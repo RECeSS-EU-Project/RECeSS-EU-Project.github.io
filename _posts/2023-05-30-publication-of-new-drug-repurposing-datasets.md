@@ -39,11 +39,11 @@ Dataset   |    #drugs★ (#features) | #diseases★ (#features) |  #positive mat
 PREDICT v2     | 1,351 (6,265) | 1,066 (2,914) |   5,624                  |  152                    | 0.34%
 TRANSCRIPT v2  | 204 (12,096)  | 116 (12,096)  |   401                    |  11                     | 0.45%
 ---------------|---------------|---------------|--------------------------|-------------------------|----------------
-Gottlieb / FDataset [[2]](https://academic.oup.com/bioinformatics/article/34/11/1904/4820334)   |593 (593)      |313 (313)      |  1933                    |    0                    | 1.04%
-CDataset [[2]](https://academic.oup.com/bioinformatics/article/34/11/1904/4820334)   |663 (663)      |409 (409)      |  2532                    |     0                   | 0.93%
-DNDataset [[2]](https://academic.oup.com/bioinformatics/article/34/11/1904/4820334)  |550  (1490)    |360  (4516)    | 1008                     |     0                   | 0.01%
-LRSSL [[3]](https://doi.org/10.1093/bioinformatics/btw770)      | 763 (1526)    |681 (681)      | 3051                     |      0                  | 0.59%
-PREDICT-Gottlieb [[4]](https://www.frontiersin.org/articles/10.3389/fphar.2021.784171/full)   |593 (1,779)     |313 (313)      |  1933                    |    0                    | 1.04%
+Gottlieb / FDataset [[2]](https://academic.oup.com/bioinformatics/article/34/11/1904/4820334)   |593 (593)      |313 (313)      |  1,933                    |    0                    | 1.04%
+CDataset [[2]](https://academic.oup.com/bioinformatics/article/34/11/1904/4820334)   |663 (663)      |409 (409)      |  2,532                    |     0                   | 0.93%
+DNDataset [[2]](https://academic.oup.com/bioinformatics/article/34/11/1904/4820334)  |550  (1,490)    |360  (4,516)    | 1,008                     |     0                   | 0.01%
+LRSSL [[3]](https://doi.org/10.1093/bioinformatics/btw770)      | 763 (2,049)    |681 (681)      | 3,051                     |      0                  | 0.59%
+PREDICT-Gottlieb [[4]](https://www.frontiersin.org/articles/10.3389/fphar.2021.784171/full)   |593 (1,779)     |313 (313)      |  1,933                    |    0                    | 1.04%
 
 Contrary to all other datasets in the table, the PREDICT dataset has missing values, that is, some information about the drugs / diseases is missing. For instance, the percentage of missing values in the drug feature matrix is 31%, whereas it is 60% in the disease feature matrix. Moreover, contrary to all other datasets, the drug and disease feature matrices in TRANSCRIPT dataset are not (a concatenation of) similarity matrices, but true biological features, in terms of gene expression variation.
 
@@ -60,6 +60,8 @@ We are really looking forward to explain more in details collaborative filtering
 ✦ Rounded up to 0.01.
 
 † This concept will be explained in a future blog post.
+
+**Update 06/09/2023:** Correction of a typo on the number of drug features in dataset LRSSL.
 
 ### References
 
