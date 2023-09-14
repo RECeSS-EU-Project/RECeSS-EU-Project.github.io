@@ -13,7 +13,7 @@ tags:
 
 The Python package *benchscofi* for the benchmark of collaborative filtering-based approaches to drug repurposing is out!
 
-The goal of *benchscofi* was to implement state-of-the-art algorithms for drug repurposing, and run the benchmarks on the drug repurposing datasets shown in the [drug repurposing dataset blog post](https://recess-eu-project.github.io/blog/publication-of-new-drug-repurposing-datasets/). For further information on collaborative filtering and its application to drug repurposing, please refer to our previous [post](https://recess-eu-project.github.io/blog/release-of-the-stanscofi-package/). 
+The goal of *benchscofi* was to implement state-of-the-art algorithms for drug repurposing, and run the benchmarks on the drug repurposing datasets shown in the [drug repurposing dataset blog post]({{ site.base_url }}/blog/publication-of-new-drug-repurposing-datasets/). For further information on collaborative filtering and its application to drug repurposing, please refer to our previous [post]({{ site.base_url }}/blog/release-of-the-stanscofi-package/). 
 
 This package will facilitate the development of collaborative filtering algorithms applied to drug repurposing, and to better assess the improvement over the state-of-the-art. Right now, *benchscofi* integrates 19 collaborative filtering algorithms from the literature, 16 accuracy and ranking metrics, and 9 drug repurposing datasets, with a large variety of drug and disease biologically meaningful features. Its modular structure allows for adding new algorithms and datasets in a straightforward way.
 

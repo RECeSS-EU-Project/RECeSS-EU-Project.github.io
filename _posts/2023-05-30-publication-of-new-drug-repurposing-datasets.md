@@ -59,7 +59,7 @@ We are really looking forward to explain more in details collaborative filtering
 
 ✦ Rounded up to 0.01.
 
-† This concept will be explained in a future blog post.
+† This concept is explained in this [blog post]({{ site.base_url }}/flash%20lecture/collaborative-filtering-for-drug-repurposing).
 
 **Update 06/09/2023:** Correction of a typo on the number of drug features in dataset LRSSL.
 
