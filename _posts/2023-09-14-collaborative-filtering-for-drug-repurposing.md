@@ -62,7 +62,7 @@ where $T_\theta(x):=\log \exp(L_\theta(x) + 1)$.
 
 ## Implementation in Python
 
-In order to implement the binary and PU classifiers described above, we use models *SimplePULearning* and *SimpleBinaryClassifier* the **benchscofi** Python package (described in a previous [post]({{ site.base_url }}/blog/release-of-the-benchscofi-package/)). We also share the associated [Python file]({{ site.base_url }}/assets/introduction-to-collaborative-filtering.py).
+In order to implement the binary and PU classifiers described above, we use models *SimplePULearning* and *SimpleBinaryClassifier* in the **benchscofi** Python package (described in a previous [post]({{ site.base_url }}/blog/release-of-the-benchscofi-package/)). We also share the associated [Python file]({{ site.base_url }}/assets/introduction-to-collaborative-filtering.py).
 
 ## Results
 
