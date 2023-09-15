@@ -28,7 +28,11 @@ The next two sections will be a bit mathematical. If you only care about the res
 
 ## A simple binary classifier
 
-Training the neural network on our data means in practice optimizing all parameters of the network such that these parameters optimize (maximizing or minimizing) a given function, called *loss* when it should be minimized. The idea is that optimizing for this loss should make our model performant for downsteam tasks (for instance, drug repurposing). In practice, to ease the derivations, we assume that the neural network computes a value akin to a logit, that is, we obtain at the exit of the last layer $L(x) := \log(P(y=1\mid  x)/(1-P(y=1 \mid x)))$, where $x$ is the feature vector and $y$ is the variable associated with the outcome class, and outputs as a score $(1+\exp(-L(x)))^{-1}$ between 0 and 1 (that is, the sigmoid function applied to the logit value).
+Training the neural network on our data means in practice optimizing all parameters of the network such that these parameters optimize (maximizing or minimizing) a given function, called *loss* when it should be minimized. The idea is that optimizing for this loss should make our model performant for downsteam tasks (for instance, drug repurposing). In practice, to ease the derivations, we assume that the neural network computes a value akin to a logit, that is, we obtain at the exit of the last layer 
+
+$$L(x) := \log(P(y=1\mid  x)/(1-P(y=1 \mid x))),$$ 
+
+where $x$ is the feature vector and $y$ is the variable associated with the outcome class, and outputs as a score $(1+\exp(-L(x)))^{-1}$ between 0 and 1 (that is, the sigmoid function applied to the logit value).
 
 When considering the binary data, that is, assuming that unlabeled datapoints are actually negative, a popular loss function is the *binary cross-entropy function*, also called *log loss*. The underlying idea behind log loss is that, for a binary classification, if we assume that the score outputted by the neural network correspond to the probability of the input datapoint to be positive, then we want to maximize the score for known positive points, and to minimize the score for known negative points. For a more detailed (and mathematical) explanation on log loss, please refer to this [very nice post](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a).
 
@@ -52,7 +56,7 @@ In that context, assume that there are $n$ datapoints of the form $(x,y)$, where
 
 $$P(y=-1 | x) = \frac{1}{1-\pi}P(y=0 | x) - \frac{\pi}{1-\pi}P(y=1 | x).$$
 
-Replacing the previous (binary) log loss expression and refactoring, by taking advantage of our logit assumption
+Replacing that in the previous empirical (binary) log loss expression and refactoring, by taking advantage of our logit assumption
 $F_\theta := (1+\exp(-L_\theta(x)))^{-1}$, yields the following expression
 
 $$H(\theta) := \frac{2\pi - 1}{n_P(\pi - 1)} \sum_{(x,y),y=1} (T_\theta(x) - L_\theta(x)) - \frac{1}{n_U(1 - \pi)}\sum_{(x,y),y=0} T_\theta(x),$$
