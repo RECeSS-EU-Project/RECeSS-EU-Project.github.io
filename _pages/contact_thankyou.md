@@ -9,4 +9,4 @@ Thank you for submitting your query.
 
 We will reach out to you as soon as we can!
 
-<center><a href="{{ site.url }}/contact">Go back to the contact form</a></center>
+<center><a href="{{ site.baseurl }}/contact">Go back to the contact form</a></center>
