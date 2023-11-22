@@ -24,7 +24,7 @@ analytics:
 #  provider: "google-gtag"
   google:
     tracking_id: "G-YVEBR1XRP0"
-    anonymize_ip: false
+    anonymize_ip: true
 
 after_footer_scripts:
   - /assets/js/cookie-consent.js
