@@ -1,6 +1,6 @@
 ---
 title: "We released our first paper!"
-date: 2023-09-14T00:00:00-00:00
+date: 2024-01-26T00:00:00-00:00
 categories:
   - blog
 tags:
