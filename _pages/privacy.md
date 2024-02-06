@@ -5,7 +5,7 @@ title: "Terms and Privacy Policy"
 
 <img class="page__hero-image" src="/assets/images/header+EU_rescale.jpg" alt="{{ site.title }}">
 
-<p>📅 Last updated: May 03, 2023</p>
+<p>📅 Last updated: February 6th, 2024</p>
 <p>The privacy of visitors to this website is important to the RECeSS project. This Privacy Policy describes the policies and procedures on the collection, use and disclosure of your information when you browse the RECeSS project website and tells you about your privacy rights and how the law protects you.</p>
 <p>We use your personal data to provide and improve the content of this webpage. By browsing it, you agree to the collection and use of information in accordance with this privacy policy.</p>
 
@@ -14,7 +14,7 @@ title: "Terms and Privacy Policy"
 <h3>Personal Data</h3>
 <p>While contacting us using the <a href="http://recess-eu-project.github.io/contact/">contact form</a>, we may ask you to provide us with your name, your e-mail address, and certain personally identifiable information that can be used to contact and answer your inquiries. 
 <h3>Usage Data</h3>
-<p>Usage Data is collected automatically when using the Service, unless the cookie preferences are updated.</p>
+<p>Usage Data is collected automatically when using the Service, if you set the cookie preferences so.</p>
 <p>Usage Data may include information such as your device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our website that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
 <p>When you access the RECeSS project website by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.</p>
 <p>We may also collect information that your browser sends whenever you visit our website or when you access the website by or through a mobile device.</p>
@@ -27,25 +27,13 @@ title: "Terms and Privacy Policy"
 <li><strong>Web Beacons.</strong> Certain sections of our website and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the RECeSS project, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
 </ul>
 <p>Cookies can be "Persistent" or "Session" cookies. Persistent cookies remain on your personal computer or mobile device when you go offline, while Session cookies are deleted as soon as you close your web browser.</p>
-<p>We use both Session and Persistent cookies for the purposes set out below:</p>
+<p>We use Persistent cookies for the purposes set out below:</p>
 <ul>
-<li>
-<p><strong>Necessary / Essential Cookies</strong></p>
-<p>Type: Session Cookies</p>
-<p>Administered by: The RECeSS project webmaster {{ site.webmaster }}</p>
-<p>Purpose: These Cookies are essential to provide you with services available through the Website. They help to authenticate users and prevent fraudulent use of user accounts. Without these cookies, the services that you have asked for cannot be provided, and we only use these cookies to provide you with those services.</p>
-</li>
 <li>
 <p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p>
 <p>Type: Persistent Cookies</p>
 <p>Administered by: The RECeSS project webmaster {{ site.webmaster }}</p>
 <p>Purpose: These cookies identify if users have accepted the use of cookies on the website.</p>
-</li>
-<li>
-<p><strong>Functionality Cookies</strong></p>
-<p>Type: Persistent Cookies</p>
-<p>Administered by: The RECeSS project webmaster {{ site.webmaster }}</p>
-<p>Purpose: These cookies allow us to remember choices you make when you use the website, such as remembering your language preference. The purpose of these cookies is to provide you with a more personal experience and to avoid you having to re-enter your preferences every time you browse the website.</p>
 </li>
 </ul>
 <p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>
@@ -65,7 +53,7 @@ title: "Terms and Privacy Policy"
 <p>The RECeSS project will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of our website, or we are legally obligated to retain this data for longer time periods.</p>
 
 <h2>Delete Your Personal Data</h2>
-<p>You have the right to delete or request that we assist in deleting the personal data that we have collected about you. Please do so by contacting us by email <a href="mailto:recess-project@proton.me">{{ site.email }}</a> or through our <a href="{{ site.url }}/contact/">contact form</a>.</p>
+<p>You have the right to delete or request that we assist in deleting the personal data that we have collected about you. Please do so by contacting us by email <a href="mailto:recess-project@proton.me">{{ site.email }}</a> or through our <a href="https://recess-eu-project.github.io/contact/">contact form</a>.</p>
 
 <h2>Disclosure of your personal data</h2>
 <h3>Law enforcement</h3>
@@ -83,4 +71,4 @@ title: "Terms and Privacy Policy"
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
 <h1>Contact Us</h1>
-<p>If you have any questions about this Privacy Policy, you can contact us by email: <a href="mailto:recess-project@proton.me">{{ site.email }}</a> or through our <a href="{{ site.url }}/contact/">contact form</a>.</p>
+<p>If you have any questions about this Privacy Policy, you can contact us by email: <a href="mailto:recess-project@proton.me">{{ site.email }}</a> or through our <a href="https://recess-eu-project.github.io/contact/">contact form</a>.</p>
