@@ -1,6 +1,6 @@
 ---
 title: "Introduction to pathway enrichment (I)"
-date: 2024-08-20T00:00:00-00:00
+date: 2024-08-22T00:00:00-00:00
 categories:
   - flash lecture
 tags:
