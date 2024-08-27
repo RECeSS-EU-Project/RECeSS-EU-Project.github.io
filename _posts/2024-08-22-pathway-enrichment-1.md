@@ -16,7 +16,7 @@ However, when the information about drugs and diseases involves the activity of 
 
 Such a concept can (and has mostly been) be applied beyond drug repurposing, for instance, to compare healthy individuals and patients based on gene activity and connect specific pathways to the disease. At any rate, given a set of genes with some kind of ranking that quantifies their contribution to the difference in gene activity between two groups of samples, pathway enrichment aims at determining which functional groups of genes are the most discriminating.
 
-We will present below two of the most common approaches to perform pathway enrichment, both with their pros and cons. We will use [Webgestalt](https://2024.webgestalt.org/) **[[1]](https://academic.oup.com/nar/article/52/W1/W415/7684598)** to run those analyses online.
+We will present below two of the most common approaches to perform pathway enrichment, both with their pros and cons. We will use [WebGestalt](https://2024.webgestalt.org/) **[[1]](https://academic.oup.com/nar/article/52/W1/W415/7684598)** to run those analyses online.
 
 As a running example, we will consider a list of genes for which a differential analysis has been run on groups of epileptic mouse brains exposed to a control (7 samples) and exposed to an inhibitor of the gene CSF1R (7 other samples) **[[2]](https://pubmed.ncbi.nlm.nih.gov/30177815/)**. If you would like to reproduce that list, go to [this page](https://www.ncbi.nlm.nih.gov/geo/geo2r/?acc=GSE77578) and follow their instructions, by defining first the control group ("Vehicle") and then the treatment one ("PLX3397"), and by setting the $p$-value cutoff to 0.0 in the Options tab. The resulting table can also be downloaded [here]({{ site.base_url }}/assets/GSE77578.top.table.tsv). Genes are identified by their gene symbol and we removed genes where the symbol is missing. The reason is because most gene annotations use gene symbols, and the automatic conversion made by WebGestalt is time-consuming.
 
@@ -56,7 +56,7 @@ Once on WebGestalt, we select the species (*Mus musculus*), the gene annotations
 
 In the "Advanced parameters" tab, choose to display enriched pathways with FDR lower than 20% ("Significance level") instead of the top enriched pathways (in terms of statistical value). The analysis is started by clickling on the "Submit" button. Running the analysis on the list of up-regulated genes with the default parameters (after a short waiting time) will lead to this page
 
-![Input to WebGestalt ORA]({{ site.base_url }}/assets/GSE77578_ora_up_output.png)
+![Output of WebGestalt ORA]({{ site.base_url }}/assets/GSE77578_ora_up_output.png)
 
 The barplot displays the name of significantly (FDR$<20\%$) enriched pathways along with their enrichment ratios. For a fixed pathway, the enrichment ratio is the number of genes from this pathway among genes of interest over the expected number of genes, that is, the number observed by chance. The higher the enrichment ratio, the more strongly overrepresented the pathway.
 
@@ -80,7 +80,7 @@ One might be tempted to have a look at all enriched pathways (including those wh
 
 ## Conclusion
 
-This blog post has described the principle of one approach for pathway enrichment, which is ORA. In the next post, we will see another approach, named Gene Set Enrichment Analysis (GSEA), which will solve the thresholding problem for the selection of genes of interest. More importantly, GSEA will allow the joint analysis of down-regulated and up-regulated genes.
+This blog post has described the principle of one approach for pathway enrichment, which is ORA. In the next [blog post]({{ site.url }}/flash%20lecture/pathway-enrichment-2/), we will see another approach, named Gene Set Enrichment Analysis (GSEA), which will solve the thresholding problem for the selection of genes of interest. More importantly, GSEA will allow the joint analysis of down-regulated and up-regulated genes.
 
 ### Footnotes
 
