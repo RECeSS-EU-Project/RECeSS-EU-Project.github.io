@@ -37,7 +37,8 @@ $$\text{ES}[1] = ES[0] + \begin{cases} \frac{|s_2|}{S_P} & \text{ if $g_2$ belon
 
 We proceed iteratively over the ranking until we get the following value at the last position $N$
 
-$$\text{ES}[N] = ES[N-1] + \begin{cases} \frac{|s_N|}{S_P} & \text{ if $g_N$ belongs to P} \\ -\frac{1}{N-|P|}& \text{ otherwise} \end{cases} = \underbrace{\sum_{j \leq N, g_j \in P} \frac{|s_j|}{S_P}}_\text{the "weighted" distribution of hits for P} - \underbrace{\sum_{j \leq N, g_j \notin P} \frac{1}{N-|P|}}_\text{the random distribution for genes not in P}\;.$$
+$$\text{ES}[N] = ES[N-1] + \begin{cases} \frac{|s_N|}{S_P} & \text{ if $g_N$ belongs to P} \\ -\frac{1}{N-|P|}& \text{ otherwise} \end{cases}$$
+$$ = \underbrace{\sum_{j \leq N, g_j \in P} \frac{|s_j|}{S_P}}_\text{the "weighted" distribution of hits for P} - \underbrace{\sum_{j \leq N, g_j \notin P} \frac{1}{N-|P|}}_\text{the random distribution for genes not in P}\;.$$
 
 The enrichment score is then 
 
