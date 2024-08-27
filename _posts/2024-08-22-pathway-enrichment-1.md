@@ -80,7 +80,7 @@ One might be tempted to have a look at all enriched pathways (including those wh
 
 ## Conclusion
 
-This blog post has described the principle of one approach for pathway enrichment, which is ORA. In the next [blog post]({{ site.url }}/flash%20lecture/pathway-enrichment-2/), we will see another approach, named Gene Set Enrichment Analysis (GSEA), which will solve the thresholding problem for the selection of genes of interest. More importantly, GSEA will allow the joint analysis of down-regulated and up-regulated genes.
+This blog post has described the principle of one approach for pathway enrichment, which is ORA. In the next [blog post]({{ site.base_url }}/flash%20lecture/pathway-enrichment-2/), we will see another approach, named Gene Set Enrichment Analysis (GSEA), which will solve the thresholding problem for the selection of genes of interest. More importantly, GSEA will allow the joint analysis of down-regulated and up-regulated genes.
 
 ### Footnotes
 
