@@ -70,8 +70,8 @@ We tried but could not reproduce the results shown in many papers from the liter
 
 ### References
 
-[[1]](https://hal.science/hal-04626970) Réda et al., (2025). Comprehensive evaluation of pure and hybrid collaborative filtering in drug repurposing (in press at Scientific Reports), https://hal.science/hal-04626970
+[[1]](https://doi.org/10.1038/s41598-025-85927-x) Réda, C., Vie, JJ. & Wolkenhauer, O. Comprehensive evaluation of pure and hybrid collaborative filtering in drug repurposing. Sci Rep 15, 2711 (2025). https://doi.org/10.1038/s41598-025-85927-x
 
-[[2]](https://github.com/RECeSS-EU-Project/benchmark-code) Réda et al., (2025). Benchmark code for "Comprehensive evaluation of pure and hybrid collaborative filtering in drug repurposing". San Francisco (CA): GitHub; [accessed 2024 Sep 24]. https://github.com/RECeSS-EU-Project/benchmark-code/
+[[2]](https://github.com/RECeSS-EU-Project/benchmark-code) Réda, C., Vie, JJ. & Wolkenhauer, O. (2025). Benchmark code for "Comprehensive evaluation of pure and hybrid collaborative filtering in drug repurposing". San Francisco (CA): GitHub; [accessed 2024 Sep 24]. https://github.com/RECeSS-EU-Project/benchmark-code/
 
-[[3]](https://github.com/RECeSS-EU-Project/benchmark-results) Réda et al., (2025). Benchmark traces/results for "Comprehensive evaluation of pure and hybrid collaborative filtering in drug repurposing". San Francisco (CA): GitHub; [accessed 2024 Sep 24]. https://github.com/RECeSS-EU-Project/benchmark-results/
+[[3]](https://github.com/RECeSS-EU-Project/benchmark-results) Réda, C., Vie, JJ. & Wolkenhauer, O. (2025). Benchmark traces/results for "Comprehensive evaluation of pure and hybrid collaborative filtering in drug repurposing". San Francisco (CA): GitHub; [accessed 2024 Sep 24]. https://github.com/RECeSS-EU-Project/benchmark-results/
